@@ -19,7 +19,6 @@ public class Main {
                         secondColumn.add(Integer.parseInt(columns[1]));
                     } catch (NumberFormatException e) {
                         System.out.println(e.getMessage());
-                        return;
                     }
                 }
             }
